@@ -1,9 +1,9 @@
 Bitcore-Innova Payment Protocol
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol-sparks.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol-sparks)
-[![Build Status](https://img.shields.io/travis/sparkscoin/bitcore-payment-protocol-sparks.svg?branch=master&style=flat-square)](https://travis-ci.org/sparkscoin/bitcore-payment-protocol-sparks)
-[![Coverage Status](https://img.shields.io/coveralls/sparkscoin/bitcore-payment-protocol-sparks.svg?style=flat-square)](https://coveralls.io/r/sparkscoin/bitcore-payment-protocol-sparks)
+[![NPM Package](https://img.shields.io/npm/v/@sparksevo/bitcore-payment-protocol-sparks.svg?style=flat-square)](https://www.npmjs.org/package/@sparksevo/bitcore-payment-protocol-sparks)
+[![Build Status](https://img.shields.io/travis/sparkscoin/@sparksevo/bitcore-payment-protocol-sparks.svg?branch=master&style=flat-square)](https://travis-ci.org/sparkscoin/@sparksevo/bitcore-payment-protocol-sparks)
+[![Coverage Status](https://img.shields.io/coveralls/sparkscoin/@sparksevo/bitcore-payment-protocol-sparks.svg?style=flat-square)](https://coveralls.io/r/sparkscoin/@sparksevo/bitcore-payment-protocol-sparks)
 
 A module for [bitcore-sparks](https://github.com/sparkscoin/bitcore-sparks) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
 
@@ -12,13 +12,13 @@ A module for [bitcore-sparks](https://github.com/sparkscoin/bitcore-sparks) that
 This library is distributed in both the npm and bower packaging systems.
 
 ```sh
-npm install bitcore-lib-sparks
-npm install bitcore-payment-protocol-sparks
+npm install @sparksevo/sparkscore-lib
+npm install @sparksevo/bitcore-payment-protocol-sparks
 ```
 
 ```sh
-bower install bitcore-lib-sparks
-bower install bitcore-payment-protocol-sparks
+bower install @sparksevo/sparkscore-lib
+bower install @sparksevo/bitcore-payment-protocol-sparks
 ```
 
 There are many examples of how to use it on the developer guide [section for payment protocol](https://bitcore.io/api/paypro). For example, the following code would verify a payment request:

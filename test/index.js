@@ -4,7 +4,7 @@ var chai = require('chai');
 var sinon = require('sinon');
 var should = chai.should();
 var expect = chai.expect;
-var bitcore = require('bitcore-lib-sparks');
+var bitcore = require('@sparksevo/sparkscore-lib');
 var PrivateKey = bitcore.PrivateKey;
 var PublicKey = bitcore.PublicKey;
 
