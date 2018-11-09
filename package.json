@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-payment-protocol-innova",
+  "name": "bitcore-payment-protocol-sparks",
   "version": "1.2.1",
-  "description": "Payment Protocol (BIP70 and related) support for bitcore-innova",
+  "description": "Payment Protocol (BIP70 and related) support for bitcore-sparks",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -34,22 +34,22 @@
     }
   ],
   "keywords": [
-    "innova",
-    "bitcore-innova"
+    "sparks",
+    "bitcore-sparks"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/innovacoin/bitcore-payment-protocol-innova.git"
+    "url": "https://github.com/sparkscoin/bitcore-payment-protocol-sparks.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "bitcore-lib-innova": "innovacoin/bitcore-lib-innova",
+    "bitcore-lib-sparks": "sparkscoin/bitcore-lib-sparks",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "bitcore-build-innova": "innovacoin/bitcore-build-innova",
+    "bitcore-build-sparks": "sparkscoin/bitcore-build-sparks",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
