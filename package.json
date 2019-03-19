@@ -1,5 +1,5 @@
 {
-  "name": "@sparksevo/bitcore-payment-protocol-sparks",
+  "name": "bitcore-payment-protocol-sparks",
   "version": "1.2.1",
   "description": "Payment Protocol (BIP70 and related) support for bitcore-sparks",
   "author": "BitPay <dev@bitpay.com>",
@@ -39,17 +39,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sparkscoin/@sparksevo/bitcore-payment-protocol-sparks.git"
+    "url": "https://github.com/sparkspay/bitcore-payment-protocol-sparks.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "@sparksevo/sparkscore-lib": "git+https://m0r4k:zLrBFb3dfCsCeUCAZrFF@bitbucket.org/m0r4k/sparkscore-lib.git#master",
+    "bitcore-lib-sparks": "git+https://github.com/m0r4k/bitcore-lib-sparks.git#master",
     "jsrsasign": "=5.0.10",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
-    "@sparksevo/bitcore-build-sparks": "git+https://m0r4k:zLrBFb3dfCsCeUCAZrFF@bitbucket.org/m0r4k/bitcore-build-sparks.git#master",
+    "bitcore-build-sparks": "git+https://github.com/m0r4k/bitcore-build-sparks.git#master",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
