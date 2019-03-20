@@ -46,7 +46,7 @@
     "asn1.js": "=4.5.2",
     "bitcore-lib-sparks": "git+https://github.com/m0r4k/bitcore-lib-sparks.git#master",
     "jsrsasign": "=5.0.10",
-    "protobufjs": "=5.0.1"
+    "protobufjs": "=5.0.3"
   },
   "devDependencies": {
     "bitcore-build-sparks": "git+https://github.com/m0r4k/bitcore-build-sparks.git#master",
